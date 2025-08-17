@@ -1,0 +1,33 @@
+package com.example.demo.BitManipulation;
+
+import java.util.Scanner;
+
+public class twokaPower {
+
+	public static void main(String[] args) {
+		
+		Scanner Sc = new Scanner(System.in);
+		System.out.println("type:");
+		  int n = Sc.nextInt();
+		  
+		  if(n < 0) {
+			  System.out.println("number is not in Power");
+		  }
+		
+		  int value = 1;
+		  while( value < n) {
+			  value = value*2;
+		  }
+		
+		  
+		 
+		  if(value == n) {
+			  System.out.println("number is  in Power");
+		  }else {
+			  System.out.println("not");
+		  }
+		
+		
+	}
+
+}
